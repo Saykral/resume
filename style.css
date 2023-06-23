@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+@media (max-width: 500px){
+    .info{ 
+        display: block;
+    }
+    .message{
+        margin-top: 334px;
+        margin-left: -328px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-size: 16px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: normal;
+    color: #000818;
+}
+
+/* Связаться со мной */
+.message {
+    padding-left: 10px;
+    padding-bottom: -30px;
+    margin-top: 10px;
+    margin-top: -334px;
+    margin-left: 328px;
+    padding: 10px;
+    width: 50%;
+    height: 295px;
+    border: 1px solid rgb(255, 146, 197);
+    background-color: rgb(255, 146, 197);
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+h4{
+    margin-top: 20px;
+}
+form {
+    
+}
+
+.form h3{
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50%-20px);
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #222222;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.info{
+    display: inline-flex;
+}
+.info .text-info {
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: -16px;
+    font-style: italic;
+    font-weight: bold;
+    color: #222222
+}
+
+.card{
+    border: 1px solid rgb(192, 192, 192);
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+.bg-blue{
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 43%;
+    height: 200px;
+    background: rgb(93, 189, 253);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+.bg-blue li{
+    padding-top: 5px;
+    
+}
+.bg-orange{
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 42%;
+    background: rgb(253, 165, 93);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.contain {
+    padding-top: 30px;
+    width: 700px;
+    margin: auto;
+}
+.avatar{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+/* Кнопка */
+.btn{
+    background: #202020;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: inherit
+}
+.btn:hover{
+    background: #5da7b9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.color_red{
+    color: red;
+}
+
+.t{
+    padding-top: 500px;
+}
+/* Coц сети */
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+.h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.you{ 
+    color: red;
+    background-color: #c6e3f1;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #888;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.vk{
+    color: rgb(26, 106, 255);
+    background-color: #c6e3f1;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #888;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.inst{
+    color: rgb(255, 145, 0);
+    background-color: #c6e3f1;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #888;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.line{
+    margin-bottom: 10px;
+}
+/* Нижняя подпись */
+.gg {
+    padding-top: 10px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+.table{
+    padding: 0;
+    width: 100%;
+}
+.a:nth-child(1):hover, .a:nth-child(2):hover{
+    color: white;;
+    cursor: pointer;
+}
+
+.table td:nth-child(3):hover{
+    color: #ffeb7b;
+}

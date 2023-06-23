@@ -6,85 +6,90 @@
     <meta name="description" content="Я люблю пёсиков">
     <meta name="keywords" content="Saykral, JS, Макар, resume">
     <title>Saykral JS resume</title>
-    <style>
-    .color_red{
-        color: red;
-     }
-     .color_blue{
-        color: rgb(0, 153, 255);
-     }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <img src="https://sun9-44.userapi.com/impg/cYSFNxlX-w149xP1C3v2vSel4n-rsF6veZ-dBA/qAo23dxoeFw.jpg?size=1000x1000&quality=95&sign=7d03f20f1041f988f8856736b981418a&type=album" width="200">
+<body bgcolor="#000" background="https://levanta.ru/storage/medialibrary/1293/0.jpg">
+
+
+    <div class="contain">
+    <div class="info">
+
+    <img  src="https://sun9-44.userapi.com/impg/cYSFNxlX-w149xP1C3v2vSel4n-rsF6veZ-dBA/qAo23dxoeFw.jpg?size=1000x1000&quality=95&sign=7d03f20f1041f988f8856736b981418a&type=album" width="200" class="avatar">
+
+    <div class="text-info">
+
     <h1>Saykral resume</h1>
-
+    
     <p>Я, Князев Макар, родился <strong> 10 июля 2007 года во Владивостоке</strong> . В 3 года вместе с родителями перехал в Уссурийск. В сентябре
-         2014 года пошёл в первый класс школы с.Новоникольска, где учусь и по сей день.</p> <p>Во 2-ом классе, за отличное обучение в школе мне подарили собаку, по кличке <em>"Джек"</em>.</p>
+         2014 года пошёл в первый класс школы с.Новоникольска, где учусь и по сей день.</p> <p>Во 2-ом классе, за отличное обучение в школе мне подарили собаку, по кличке <em>"Джек"</em>.</p> 
 
-    <h3>Мои соц. сети:</h3> <a class="color_blue" href="https://vk.com/makar_knyaz" target="_blank">ВКонтакте</a> 
-    <a class="color_red" href="http://127.0.0.1:5500/YouTube.html" target="_blank">YouTube</a> 
+         <h3 class="h3">Мои соц. сети:</h3> <a class="vk carta" href="https://vk.com/makar_knyaz" target="_blank">ВКонтакте</a> 
+         <a class="you carta" href="http://127.0.0.1:5500/YouTube.html" target="_blank">YouTube</a>
+         <a class="inst carta" href="INST.html" target="_blank">Instagram</a>
+        </div>
+    </div>
+    <hr class="line">
 
-    <hr>
-
+<div class="card bg-blue">
 <h2>Мои хобби:</h2>
-<ol>
+<div class="text-info">
+<ol class="list">
     <li>MTB</li>
     <li>Design</li>
     <li>Games</li>
     <li>Programer</li>
     <li>Sleep</li>
-
+</div>
+</div>
     <br>
     <br>
-
-    <Table width="300">
-        <thead>
-            <tr>
-                <th>Название работы</th>   
-                <th>Должность</th>
-                <th>Период, когда вы там работал</th>
-            </tr>
-        </thead>
+<div class="card bg-orange">
+    <h2>Опыт работы</h2>
+    <Table class="table">
         <tbody>
             <tr>
-                <td>Programer</td>
-                <td>Backend</td>
+                <td><a href="https://practicum.yandex.ru/blog/kto-takoy-programmist/" target="_blank" class="a">Programer</a></td>
+                <td><a href="https://itproger.com/course/cpp" target="_blank" class="a">Backend</a></td>
                 <td>2020-2022</td>
             </tr>
             <tr>
-                <td>Programer</td>
-                <td>Frontend</td>
+                <td><a href="https://practicum.yandex.ru/blog/kto-takoy-programmist/" target="_blank" class="a">Programer</a></td>
+                <td><a href="https://itproger.com/course/javascript" target="_blank" class="a">Frontend</a></td>
                 <td>2022-2025</td>
             </tr>
         </tbody>
     </Table>
 </ol>
+</div>
 
 <hr>
 
-<h3>Связаться со мной</h3>
-<div>
-    <form>
-        <label for="text">Имя: </label>
-        <input type="text" id="trxt" placeholder="Введите Имя">
-    </form>
-</div>
-<div>
-    <form>
-        <label for="Email">Email: </label>
-        <input type="Email" id="Email" placeholder="Введите Email">
-    </form>
-</div>
-<div>
-    <form>
-        <label for="message">Сообщение: </label>
-        <br>
-        <textarea type="message" id="message" cols="25" rows="10" placeholder="Введите сообщение..."></textarea>
-     </form>
-</div>   
-     <button type="submit">Отправить!</button>
+<div class="message"> 
+    
+     <form class="form">
+        <h3>Связаться со мной</h3>
 
-     <h4><span class="color_red">Предупреждение</span>, данная информация не является действительной! Сайт делался для примера.</h4>
+<div class="form-row">
+    <div class="form-group">
+           <label for="text">Имя: </label>
+           <input type="text" id="trxt" placeholder="Введите Имя">
+    </div>
+    <div class="form-group">
+            <label for="Email">Email: </label>
+            <input type="Email" id="Email" placeholder="Введите Email">
+    </div>
+</div>
+    <div class="form-group">
+          <label for="message">Сообщение: </label>
+          <br>
+         <textarea type="message" id="message" cols="35" rows="10" placeholder="Введите     сообщение..."></textarea>
+    </div>   
+        <button class="btn" type="submit">Отправить!</button>
+    </form>
+</div>
+    <div class="gg"><h4><span class="color_red">Предупреждение</span>, данная информация не является действительной! Сайт делался для примера.</h4></div>
+</div>
+
+     
 </body>
 </html>
